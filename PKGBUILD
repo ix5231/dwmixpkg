@@ -1,6 +1,6 @@
-pkgname=dwm-git
+pkgname=dwmix-git
 _pkgname=dwm
-pkgver=6.1.26.g3bd8466
+pkgver=6.1.49.g7559a51
 pkgrel=1
 pkgdesc="A dynamic window manager for X"
 url="http://dwm.suckless.org"
@@ -14,7 +14,7 @@ provides=('dwm')
 conflicts=('dwm')
 epoch=1
 source=(dwm.desktop
-        "$_pkgname::git+http://git.suckless.org/dwm")
+        "git+https://github.com/ix5231/dwm")
 md5sums=('939f403a71b6e85261d09fc3412269ee'
          'SKIP')
 
